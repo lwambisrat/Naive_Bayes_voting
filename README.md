@@ -29,13 +29,15 @@ This project implements a **Naive Bayes classifier from scratch** to classify me
   
    Using SSH:
 
-   ` git clone git@github.com:lwambisrat/Naive_Bayes_voting.git`
-   ` cd Naive_Bayes_voting`
+        git clone git@github.com:lwambisrat/Naive_Bayes_voting.git
+        cd Naive_Bayes_voting
 
    Or using HTTPS:
   
-    ` git clone https://github.com/lwambisrat/ID3_BreastCancer.git`
-    ` cd ID3_BreastCancer `
+        git clone https://github.com/lwambisrat/Naive_Bayes_voting.git
+        cd Naive_Bayes_voting
+
+  
 - Standard libraries only: `csv`, `random`, `collections` (`Counter`, `defaultdict`)  
 
 
@@ -63,7 +65,7 @@ Naive_Bayes_voting/
 
 Run the Naive Bayes classifier and evaluate with 10-fold cross-validation:
 
-     `python naive_bayes.py`
+      python naive_bayes.py
 
 The script will output:
 
@@ -77,18 +79,28 @@ The script will output:
   
 - The out put is going to be same format with below logs
 
-      Loaded 435 records from dataset.
-      Missing values handled using class-wise mode replacement.
+  `Loaded 435 records from dataset.`
+  
+  `Missing values handled using class-wise mode replacement.`
 
-       Fold 1 Accuracy: 0.909
-       Fold 2 Accuracy: 0.932
-       Fold 3 Accuracy: 0.932
-       Fold 4 Accuracy: 0.864
-       Fold 5 Accuracy: 0.864
-       Fold 6 Accuracy: 0.930
-       Fold 7 Accuracy: 0.953
-       Fold 8 Accuracy: 0.907
-       Fold 9 Accuracy: 0.884
-       Fold 10 Accuracy: 0.977
+   `Fold 1 Accuracy: 0.909`
+  
+   `Fold 2 Accuracy: 0.932`
 
-      Average Accuracy over 10 folds: 0.915
+   `Fold 3 Accuracy: 0.932`
+
+   `Fold 4 Accuracy: 0.864`
+
+   `Fold 5 Accuracy: 0.864`
+
+   `Fold 6 Accuracy: 0.930`
+
+   `Fold 7 Accuracy: 0.953`
+
+   `Fold 8 Accuracy: 0.907`
+
+   `Fold 9 Accuracy: 0.884`
+
+   `Fold 10 Accuracy: 0.977`
+
+   `Average Accuracy over 10 folds: 0.915`
