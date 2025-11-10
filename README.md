@@ -65,7 +65,7 @@ Naive_Bayes_voting/
 
 Run the Naive Bayes classifier and evaluate with 10-fold cross-validation:
 
-      python naive_bayes.py
+      python naive_bayes_voting.py
 
 The script will output:
 
